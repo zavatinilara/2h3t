@@ -1,1 +1,1 @@
-# dupla lara e lara
+# Lara com Lara = Lara
