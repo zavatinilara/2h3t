@@ -1,0 +1,14 @@
+.calc_simples{
+    background-color: palevioletred;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+.visor{
+    text-align: center;
+    background-color: transparent;
+}
+#resultado{
+    background-color: black;
+    color: white;
+}
