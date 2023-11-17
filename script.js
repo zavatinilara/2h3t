@@ -39,6 +39,48 @@ function calcula(){
     if(executa == "sub") mostrar_display(sub(num1,num2));
     if(executa == "div") mostrar_display(div(num1,num2));
     if(executa == "mult") mostrar_display(mult(num1,num2));
-    num1
+    num1 = "";
+    num2 = "";
+    valor = "";
+    temPonto = false;
+    executa = "";
   }
 }
+let a = 0;
+let b = 0;
+let c = 0;
+
+function calcula_eq(){
+  if(a != 0){
+     let delta
+  }
+
+}
+
+
+
+function muda_sinal_a(){
+    a = (-1)*a;
+    calcula_eq();
+}
+const muda_sinal_b(){
+  b = (-1)*b;
+  calcula_eq();
+}
+const muda_sinal_c(){
+  c = (-1)*c;
+  calcula_eq();
+}
+function set_valor_a(){
+  a = document.getElementById("valor_a").value;
+  calcula_eq();
+}
+function set_valor_b(){
+  b = document.getElementById("valor_b").value;
+  calcula_eq();
+}
+function set_valor_c(){
+  c = document.getElementById("valor_c").value;
+  calcula_eq();
+}
+
